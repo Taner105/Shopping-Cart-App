@@ -40,11 +40,14 @@ header{
         font-size: 2rem;
         cursor: pointer;
         display: none;
-        scroll-behavior: smooth;
+        // scroll-behavior: smooth;
     }
     .navbar {
         position: relative;
         display: flex;
+        &:focus{
+            top: 100%;
+        }
         a {
             font-size: 1rem;
             padding: 10px 20px;
@@ -284,7 +287,7 @@ header{
         padding: 11px 4%;
         .navbar{
             position: absolute;
-            top: 100%;
+            top: -500px;
             left: 0;
             right: 0;
             display: flex;
@@ -293,6 +296,9 @@ header{
             box-shadow: 0 4px 4px rgb(0 0 0 /10%);
             transition: 0.2s ease;
             text-align: center;
+            &:focus{
+                top: 100%;
+              }
             a{
                 padding: 1.5rem;
               display: block;
@@ -303,9 +309,10 @@ header{
 
             }
         }
+         #menu-icon {
+             display: initial;
+         }
     }
-    #menu-icon{
-        display: initial;
-    }
+   
 }
 
