@@ -45,7 +45,7 @@ header{
     .navbar {
         position: relative;
         display: flex;
-        &:active{
+        .active{
             top: 100%;
         }
         a {
@@ -116,7 +116,7 @@ header{
         box-shadow: 1px 4px 4px rgba(0,0,0,0.1);
         .box-img{
              width: 100%;
-             height: 400px;
+             height: 500px;
              overflow: hidden;
              border-radius: 44px 4px 0 0;
              
@@ -201,6 +201,7 @@ header{
     }
 
 }
+
 .newsletter{
     display: flex;
     flex-direction: column;
@@ -261,10 +262,12 @@ header{
        
     }
 }
+
 .copyright{
     padding: 20px;
     text-align: center;
 }
+
 @media(max-width:991px){
     header{
         padding: 18px 4%;
@@ -299,7 +302,7 @@ header{
             box-shadow: 0 4px 4px rgb(0 0 0 /10%);
             transition: 0.2s ease;
             text-align: center;
-            &:active{
+            .active{
                 top: 100%;
               }
             a{
@@ -318,4 +321,10 @@ header{
     }
    
 }
+// .detail-container {
+//     display: flex;
+//     justify-content: center;
+
+    
+// }
 

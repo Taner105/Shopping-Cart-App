@@ -277,8 +277,57 @@ header .navbar a:hover {
 }
 .copyright {
   padding: 20px;
+  
   text-align: center;
 }
+.detail-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, auto));
+  gap: 5rem;
+  margin-top: 80px;
+}
+.text-area{
+  margin-top: 50px;
+}
+.text-area h1{
+  font-size: 40px;
+}
+.text-area h4 {
+  font-size: 30px;
+  color: #83b735;
+}
+#select{
+  margin-top: 20px;
+  padding: 5px;
+  font-size:16px;
+}
+.text-area input{
+  padding: 4px;
+  font-size: 16px;
+  width: 45px;
+}
+.text-area .btn {
+  border: 1px solid black;
+  padding: 5px 6px 5px 6px;
+  border-radius: 4px;
+  background-color: #83b735;
+  color: #fff;
+  outline: none;
+  border: none;
+}
+.text-area h3 {
+  font-size: 30px;
+  margin-top: 20px;
+}
+.img-detail img{
+  border-radius: 8px;
+  height: 550px;
+}
+.img-detail img:hover {
+  transform: scale(1.1);
+  transition: 0.5s;
+}
+
 @media (max-width: 991px) {
   header {
     padding: 18px 4%;
