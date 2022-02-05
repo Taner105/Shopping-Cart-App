@@ -3,8 +3,8 @@ let navbar = document.querySelector('.navbar');
 
 menu.onclick = () => {
     console.log("tıklandı");
-    navbar.classList.toggle("focus");
+    navbar.classList.add("active");
 }
 window.onscroll = () => {
-    navbar.classList.remove("focus");
+    navbar.classList.remove("active");
 }

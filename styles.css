@@ -86,7 +86,7 @@ header .navbar {
   position: relative;
   display: flex;
 }
-header .navbar:focus {
+header .navbar:active {
   top: 100%;
 }
 header .navbar a {
@@ -315,7 +315,7 @@ header .navbar a:hover {
     transition: 0.2s ease;
     text-align: center;
   }
-  header .navbar:focus {
+  header .navbar:active {
     top: 100%;
   }
   header .navbar a {
