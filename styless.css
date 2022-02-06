@@ -506,16 +506,16 @@ header .navbar a:hover {
   }
   
   header .navbar a {
-    padding: 1.5rem;
-    display: block;
+    /* padding: 1.5rem; */
+    /* display: block; */
   }
   header .navbar a:hover {
     color: #fff;
     background: #83b735;
   }
-  header #menu-icon {
+  /* header #menu-icon {
     display: initial;
-  }
+  } */
   .img-detail img{
     height: 10rem;
     width: 10rem;
