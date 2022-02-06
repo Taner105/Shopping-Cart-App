@@ -1,15 +1,3 @@
-let menu = document.getElementById('menu-icon');
-let navbar = document.getElementsByClassName('navbar');
-
-menu.onclick = () => {
-    console.log("tıklandı");
-    navbar.classList.toggle("active")
-}
-// window.onscroll = () => {
-//     navbar.classList.remove("active")
-// }
-
-
 let previewContainer = document.getElementsByClassName("products-preview");
 let previewBox = document.getElementsByClassName("detail");
 
